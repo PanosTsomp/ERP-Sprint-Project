@@ -8,6 +8,18 @@ Integrator/config.php
 .env
 *.env
 
+# SSL/TLS private keys and certificates
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# Database dumps and backups
+*.sql
+*.sql.gz
+*.dump
+
 # Logs
 *.log
 logs/
