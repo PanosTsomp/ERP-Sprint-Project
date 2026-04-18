@@ -10,5 +10,6 @@ function createCustomer(string $customerName): array {
         'territory' => 'All Territories',
     ]);
 
-    return erpRequest('POST', '/api/resource/Customer', $payload);
+    echo "Customer '$customerName' created with ID: " . $payload['name'] . "\n";
+    return $payload;
 }
