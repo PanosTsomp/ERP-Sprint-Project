@@ -1,6 +1,6 @@
 <?php
-require_once DIR . '/../src/auth.php';
-require_once DIR . '/../config.php';
+require_once __DIR__ . '/auth.php';
+require_once __DIR__ . '/../config.php';
 
 function checkStock(string $itemCode, string $warehouse): float {
     $filters = json_encode([
