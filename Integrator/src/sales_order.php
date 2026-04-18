@@ -1,6 +1,6 @@
 <?php
-require_once DIR . '/../config.php';
-require_once DIR . '/auth.php';
+require_once __DIR__ . '/../config.php';
+require_once __DIR__ . '/auth.php';
 
 function customerNameToId(string $customerName): string {
     $query = http_build_query([
