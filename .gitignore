@@ -1,0 +1,20 @@
+# ERPNext Docker internals
+ERP-Headless/frappe_docker/
+
+# PHP config with secrets
+Integrator/config.php
+
+# Environment files
+.env
+*.env
+
+# Logs
+*.log
+logs/
+
+# OS clutter
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
